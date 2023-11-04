@@ -3,4 +3,4 @@
 
 
 # ! Usage !
-<pre><code>wget https://raw.githubusercontent.com/wildysheverando-project/root/main/root.sh && chmod +x root.sh && ./root.sh</code></pre>
+<pre><code>wget https://raw.githubusercontent.com/Anang11042000/root/main/root.sh && chmod +x root.sh && ./root.sh</code></pre>
