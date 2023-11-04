@@ -14,7 +14,7 @@ read -p "Please Input an New Password For Root : " Pass
 rm -f /etc/ssh/sshd_config
 wget -O /etc/ssh/sshd_config https://raw.githubusercontent.com/Anang11042000/root/main/sshd
 echo -e "$Pass\n$Pass\n"|passwd root &> /dev/null
-IPANDA=$(wget -qO- ipinfo.io/ip);
+IPANDA=$(curl -sS ipv4.icanhazip.com);
 
 # Successful
 clear
